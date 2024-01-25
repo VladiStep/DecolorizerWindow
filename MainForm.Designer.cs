@@ -62,7 +62,7 @@
             // 
             trayContextMenu.Items.AddRange(new ToolStripItem[] { settingsMenuItem, toggleDisplayMenuItem, exitMenuItem });
             trayContextMenu.Name = "trayContextMenu";
-            trayContextMenu.Size = new Size(276, 70);
+            trayContextMenu.Size = new Size(317, 92);
             // 
             // settingsMenuItem
             // 
@@ -76,8 +76,8 @@
             // 
             toggleDisplayMenuItem.Image = Properties.Resources.toggleDisplayIcon;
             toggleDisplayMenuItem.Name = "toggleDisplayMenuItem";
-            toggleDisplayMenuItem.Size = new Size(275, 22);
-            toggleDisplayMenuItem.Text = "Переключить отображение области";
+            toggleDisplayMenuItem.Size = new Size(316, 22);
+            toggleDisplayMenuItem.Text = "Переключить отображение области (Alt+Z)";
             toggleDisplayMenuItem.Click += toggleDisplayMenuItem_Click;
             // 
             // exitMenuItem
