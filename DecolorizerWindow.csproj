@@ -11,6 +11,9 @@
     <Title>Decolorizer</Title>
     <Authors>VladiStep</Authors>
     <Copyright>2024</Copyright>
+	<NeutralLanguage>en</NeutralLanguage>
+	<ResourceLanguages>ru;en</ResourceLanguages>
+	<SatelliteResourceLanguages>ru;en</SatelliteResourceLanguages>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
